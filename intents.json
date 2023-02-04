@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "salut",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Bonsoir",
+        "Bonne journee"
+      ],
+      "responses": [
+        "Salut :-)",
+        "Bonjour, merci de votre visite.",
+        "Bonjour, que puis-je faire pour vous ?",
+        "Salut, comment puis-je aider?"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Au revoir", "A plus tard", "Bye"],
+      "responses": [
+        "A plus tard, merci de votre visite.",
+        "Je vous souhaite une bonne journee!",
+        "Au revoir! Revenez bientot."
+      ]
+    },
+    {
+      "tag": "merci",
+      "patterns": ["Merci", "C'est utile!", "Merci beaucoup!"],
+      "responses": ["Heureux d'aider!", "A tout moment!", "Mon plaisir", "De rien"]
+    },
+    {
+      "tag": "appart",
+      "patterns": [
+        "Je veux acheter un appartement.",
+        "Quels types d'appartement avez vous?"
+      ],
+      "responses": [
+        "Nous offrons des appartements economiques et Moyen Standing",
+        "On peut vous offrir deux types d'appartement: economique et Moyen Standing"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Comment je peux vous contactez?",
+        "Quel est votre numero de telephone?",
+        "je veux parler avec un commercial",
+        "je veux un service aprés vente"
+      ],
+      "responses": [
+        "Vous pouvez appeler le numero suivant: +212529070070",
+        "Vous pouvez envoyer un email a l'adresse suivante: contact@abrarimmo.com"
+      ]
+    },
+    {
+      "tag": "terrain",
+      "patterns": [
+        "Est ce que vous avez des lots de terrain?",
+        "Je veux acheter un terrain",
+        "où est ce que je peux acheter un terrain"
+      ],
+      "responses": [
+        "On offre des lots de terrain sur Casablanca, Berrechid, Settat, Marrakech, Dar Bouazza et Mohammedia"
+      ]
+    },
+    {
+      "tag": "où",
+      "patterns": [
+        "où est ce que je peux trouver votre bureau?",
+        "où est ce je peux vous trouver?",
+        "où êtes vous?"
+      ],
+      "responses": [
+        "Nos bureaux se trouvent sur: Casablanca (Sidi Othman), Dar Bouazza (Abrar Tissir), Berrechid (La Perle De Berrechid), Marrakech (Les Jardins D'abrar M'hamid), Casablanca (Abrar Errehama), Settate (Les Jardins De Settat)"
+      ]
+    }
+  ]
+}
